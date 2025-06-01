@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowman Meteor Dodge</title>
+    <link rel="stylesheet" href="snow.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lato:wght@400;700&family=Pacifico&display=swap');
+      </style>
+    <script src="https://kit.fontawesome.com/fd55908e0f.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+    <link rel="shortcut icon" href="ASSETS/icons8-snowflake-32.png" type="image/x-icon">
+</head>
+</style>
+<body>
+  <div class="content">
+    <div class="leftScreen">
+      <!-- <p>Instructions and guide for the game<br> shall be put in here</p> -->
+      <h1>How to Play:</h1>
+      <h2>You can move Frosty using:</h2>
+
+      <p class="bruh">Your Mouse:</p>
+      <div class="mouseMove">
+        <i class="fa-solid fa-left-long"></i>
+        <i class="fa-solid fa-computer-mouse"></i>
+        <i class="fa-solid fa-right-long"></i>
+      </div>
+
+      <p class="bruh">Letter Keys:</p>
+      <div class="SndInstruction">
+        <p class="btn">A</p><p class="and"> and </p><p class="btn">D</p>
+      </div>
+      
+      <p class="bruh">Arrow Keys:</p>
+      <div class="TrdInstruction">
+        <div class="leftArrow">
+          <i class="fa-solid fa-left-long arrow"></i>
+        </div>
+        <p class="and">and</p>
+        <div>
+          <i class="fa-solid fa-right-long arrow"></i>
+        </div>
+      </div>
+    </div>
+    <div class="middleScreen cursor">
+      <canvas id="canvas"  style=" background-color :#b7d0e1; border: 2px black solid;" ></canvas>
+    </div>
+    <div class="rightScreen">
+      <button id="btn1">PLAY</button>
+      <button id="btn2">PLAY AGAIN</button>
+      <h1 id = "score"></h1>
+    </div>
+  </div>
+</body>
+</html>
